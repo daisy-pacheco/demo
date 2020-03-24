@@ -9,31 +9,12 @@
     ]
   },
   "Packages": {
-    "BH": {
-      "Package": "BH",
-      "Version": "1.72.0-3",
-      "Source": "CRAN",
-      "Repository": "CRAN",
-      "RemoteType": "standard",
-      "RemoteRef": "BH",
-      "RemoteRepos": "https://cloud.r-project.org",
-      "RemotePkgType": "source",
-      "RemoteSha": "1.72.0-3",
-      "Hash": "8f9ce74c6417d61f0782cbae5fd2b7b0"
-    },
     "R6": {
       "Package": "R6",
       "Version": "2.4.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "292b54f8f4b94669b08f94e5acce6be2"
-    },
-    "Rcpp": {
-      "Package": "Rcpp",
-      "Version": "1.0.4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "5ef9c463e30f8aea49c293e4b8d9d7be"
     },
     "assertthat": {
       "Package": "assertthat",
@@ -91,15 +72,16 @@
     },
     "dplyr": {
       "Package": "dplyr",
-      "Version": "0.8.5",
-      "Source": "CRAN",
-      "Repository": "CRAN",
-      "RemoteType": "standard",
-      "RemoteRef": "dplyr",
-      "RemoteRepos": "https://cloud.r-project.org",
-      "RemotePkgType": "source",
-      "RemoteSha": "0.8.5",
-      "Hash": "57a42ddf80f429764ff7987128c3fd0a"
+      "Version": "0.8.99.9002",
+      "Source": "GitHub",
+      "Remotes": "r-lib/rlang, r-lib/vctrs",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "dplyr",
+      "RemoteUsername": "tidyverse",
+      "RemoteRef": "master",
+      "RemoteSha": "35d3aced69c5243c7259112cff1cd0ed854b6318",
+      "Hash": "71a183734df08eb91f54ef589dca8f11"
     },
     "ellipsis": {
       "Package": "ellipsis",
@@ -128,6 +110,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "af1f47b63d1aa2206c1fe4d3db1d9366"
+    },
+    "lifecycle": {
+      "Package": "lifecycle",
+      "Version": "0.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "361811f31f71f8a617a9a68bf63f1f42"
     },
     "magrittr": {
       "Package": "magrittr",
@@ -168,13 +157,6 @@
       "RemotePkgType": "source",
       "RemoteSha": "1.0.2",
       "Hash": "5e655fb54cceead0f095f22d7be33da3"
-    },
-    "plogr": {
-      "Package": "plogr",
-      "Version": "0.2.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "09eb987710984fc2905c7129c7d85e65"
     },
     "praise": {
       "Package": "praise",
