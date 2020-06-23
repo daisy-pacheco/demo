@@ -5,7 +5,7 @@
 #' @param a numeric value
 #' @param b numeric value
 #'
-#' @return
+#' @return The sum of `a` and `b`
 #' @export
 #'
 #' @examples

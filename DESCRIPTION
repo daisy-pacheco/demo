@@ -22,4 +22,5 @@ Suggests:
 Imports: 
     dplyr,
     tibble,
-    magrittr
+    magrittr,
+    rlang

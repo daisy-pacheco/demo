@@ -12,7 +12,7 @@ add(a, b)
 \item{b}{numeric value}
 }
 \value{
-
+The sum of \code{a} and \code{b}
 }
 \description{
 \code{add} returns the sum of it's two arguments.
